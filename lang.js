@@ -214,5 +214,14 @@
     if (keep) saved = sessionStorage.getItem('lang-session-v1') || 'en';
     else sessionStorage.removeItem('lang-session-v1');
   } catch (err) {}
+  function fixYear() {
+    var y = String(new Date().getFullYear());
+    document.querySelectorAll('footer').forEach(function (f) {
+      for (var n = f.firstChild; n; n = n.nextSibling) if (n.nodeType === 3) n.nodeValue = n.nodeValue.replace(/© \d{4}/, '© ' + y);
+    });
+  }
+  var applyLang = apply;
+  apply = function (lang) { applyLang(lang); fixYear(); };
   if (saved === 'zh') apply('zh');
+  fixYear();
 })();
