@@ -162,3 +162,5 @@ html[lang=zh-CN] .lab-main .lab-none{font-style:normal}
 
 .lab-main .lab-contact{display:flex;flex-wrap:wrap;gap:10px 24px;margin:14px 0 0;font-size:15px}
 .lab-main .lab-contact a{display:inline-flex;align-items:center;gap:8px}
+.lab-main .lab-bio{margin:4px 0 6px;font-size:15px;line-height:1.55;color:#30383c}
+:root[data-theme=dark] .lab-main .lab-bio{color:#d9e1e2}
