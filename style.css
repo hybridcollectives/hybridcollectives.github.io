@@ -144,3 +144,18 @@ html[lang=zh-CN] .lab-main .lab-q,html[lang=zh-CN] .lab-main .lab-hc-note em{fon
 .lab-brand-mark .hc-nodes circle:nth-child(odd){fill:#a56c36}
 :root[data-theme=dark] .lab-brand-mark .hc-letters{fill:#a8d8d6}
 :root[data-theme=dark] .lab-brand-mark .hc-nodes circle:nth-child(odd){fill:#d8b47d}
+
+.lab-main .lab-sub2{font:18px/1.35 Georgia,"Times New Roman",serif;color:#245c65;margin:18px 0 8px}
+.lab-main .lab-positions{margin-bottom:6px}
+.lab-main .lab-none{color:#4d6164;font-style:italic;margin:0;padding:12px 14px;border:1px dashed #c7d7d5;border-radius:6px}
+.lab-main .lab-pos{border:1px solid #dfe7e8;border-left:3px solid #a56c36;border-radius:6px;padding:12px 16px;margin-bottom:10px}
+.lab-main .lab-pos h4{font:17px/1.35 Georgia,"Times New Roman",serif;margin:0 0 4px;color:#173f48}
+.lab-main .lab-pos p{margin:4px 0 0}
+html[lang=zh-CN] .lab-main .lab-none{font-style:normal}
+:root[data-theme=dark] .lab-main .lab-sub2{color:#a8d8d6}
+:root[data-theme=dark] .lab-main .lab-none{color:#b7c9cb;border-color:#35494d}
+:root[data-theme=dark] .lab-main .lab-pos{border-color:#35494d;border-left-color:#d8b47d}
+:root[data-theme=dark] .lab-main .lab-pos h4{color:#c4e5e3}
+@media(min-width:781px){.lab-header nav{flex-wrap:nowrap}.lab-header #site-links{flex-wrap:nowrap;white-space:nowrap}}
+@media(min-width:781px) and (max-width:1120px){.lab-header nav .lab-brand span{display:none}.lab-header nav{gap:14px;padding-left:20px;padding-right:20px}.lab-header #site-links{gap:18px}}
+@media(min-width:781px) and (max-width:900px){.lab-header #site-links{gap:12px}.lab-header #site-links a{font-size:14px}}
