@@ -97,7 +97,7 @@
   var TITLES = {
     'Hao Cui | Human–AI interaction & collective intelligence': '崔浩 | 人机互动与集体智能',
     'Publications | Hao Cui': '论文 | 崔浩', 'Talks | Hao Cui': '报告 | 崔浩', 'Media & gallery | Hao Cui': '媒体与图集 | 崔浩',
-    'News | Hao Cui': '新闻 | 崔浩', 'Hybrid Collectives Lab': '人机群体实验室', 'Welcome to Hao Cui’s World': '欢迎来到崔浩的世界'
+    'News | Hao Cui': '新闻 | 崔浩', 'Hybrid Collectives Lab (HC Lab)': '人机群体实验室（HC Lab）', 'Welcome to Hao Cui’s World': '欢迎来到崔浩的世界'
   };
   var CATS = { Home: '首页', Publications: '论文', Talks: '报告', Gallery: '图集', News: '新闻' };
   window.ZH_STR = {
