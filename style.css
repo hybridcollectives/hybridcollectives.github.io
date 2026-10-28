@@ -144,3 +144,21 @@ html[lang=zh-CN] .lab-main .lab-q,html[lang=zh-CN] .lab-main .lab-hc-note em{fon
 .lab-brand-mark .hc-nodes circle:nth-child(odd){fill:#a56c36}
 :root[data-theme=dark] .lab-brand-mark .hc-letters{fill:#a8d8d6}
 :root[data-theme=dark] .lab-brand-mark .hc-nodes circle:nth-child(odd){fill:#d8b47d}
+
+.lab-main .lab-hls{display:grid;gap:0;border-top:1px solid #dfe7e8}
+.lab-main .lab-hl{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;padding:18px 0;border-bottom:1px solid #dfe7e8}
+.lab-main .lab-hl-tag{font:600 12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#245c65;margin:2px 0 6px}
+.lab-main .lab-hl-venue{font-size:13px;line-height:1.5;color:#687579;margin:0}
+.lab-main .lab-hl h3{font:19px/1.4 Georgia,"Times New Roman",serif;margin:0 0 6px}
+.lab-main .lab-hl h3 a{color:#173f48;text-decoration:none}
+.lab-main .lab-hl h3 a:hover{color:#245c65;text-decoration:underline}
+.lab-main .lab-hl-authors{font-size:13px;color:#687579;margin:0 0 8px}
+.lab-main .lab-hl-authors b{font-weight:600;color:#30383c}
+.lab-main .lab-hl-sum{font-size:15px;line-height:1.65;margin:0;color:#30383c}
+html[lang=zh-CN] .lab-main .lab-hl-tag{letter-spacing:.02em}
+@media(max-width:780px){.lab-main .lab-hl{grid-template-columns:1fr;gap:6px}.lab-main .lab-hl-side{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}.lab-main .lab-hl-tag{margin:0}}
+:root[data-theme=dark] .lab-main .lab-hls,:root[data-theme=dark] .lab-main .lab-hl{border-color:#35494d}
+:root[data-theme=dark] .lab-main .lab-hl-tag{color:#a8d8d6}
+:root[data-theme=dark] .lab-main .lab-hl h3 a{color:#c4e5e3}
+:root[data-theme=dark] .lab-main .lab-hl-venue,:root[data-theme=dark] .lab-main .lab-hl-authors{color:#aabbbf}
+:root[data-theme=dark] .lab-main .lab-hl-authors b,:root[data-theme=dark] .lab-main .lab-hl-sum{color:#d9e1e2}
