@@ -160,7 +160,5 @@ html[lang=zh-CN] .lab-main .lab-none{font-style:normal}
 @media(min-width:781px) and (max-width:1120px){.lab-header nav .lab-brand span{display:none}.lab-header nav{gap:14px;padding-left:20px;padding-right:20px}.lab-header #site-links{gap:18px}}
 @media(min-width:781px) and (max-width:900px){.lab-header #site-links{gap:12px}.lab-header #site-links a{font-size:14px}}
 
-.lab-main .lab-contact{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:6px}
-.lab-main .lab-contact li{display:flex;gap:14px;align-items:baseline}
-.lab-main .lab-ck{min-width:72px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#687579}
-:root[data-theme=dark] .lab-main .lab-ck{color:#aabbbf}
+.lab-main .lab-contact{display:flex;flex-wrap:wrap;gap:10px 24px;margin:14px 0 0;font-size:15px}
+.lab-main .lab-contact a{display:inline-flex;align-items:center;gap:8px}
