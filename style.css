@@ -167,3 +167,9 @@ html[lang=zh-CN] .lab-main .lab-none{font-style:normal}
 .lab-main .lab-name a{color:inherit;text-decoration:none}.lab-main .lab-name a:hover{color:#245c65;text-decoration:underline}
 @media(max-width:780px){.lang-switch button,:root[data-theme=dark] .lang-switch button{padding:5px 10px}}
 :root[data-theme=dark] .lang-switch button[aria-pressed=true]{font-weight:600}
+.lab-main .lab-methods{margin-top:22px;text-align:center}
+.lab-main .lab-methods-label{font:600 12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#687579;margin:0 0 10px}
+.lab-main .lab-methods ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 12px}
+.lab-main .lab-methods li{padding:7px 16px;border:1px solid #cfdcdb;border-radius:999px;background:#f3f7f5;color:#245c65;font-size:14.5px;font-weight:500;line-height:1.3}
+:root[data-theme=dark] .lab-main .lab-methods li{background:#1b2b2e;border-color:#35494d;color:#a8d8d6}
+:root[data-theme=dark] .lab-main .lab-methods-label{color:#aabbbf}
