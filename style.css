@@ -104,7 +104,7 @@ html[lang=zh-CN] #about .profile-quote p{font-family:"Noto Serif SC","Songti SC"
 .lab-main .lab-hc-note{font-size:15px;line-height:1.6;color:#4d6164;margin:0;max-width:560px;padding-left:12px;border-left:2px solid #a56c36}
 .lab-main .lab-sub{font:600 13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#94602e;margin:36px 0 12px;padding:0;border:0}
 .lab-main .lab-sub:after{display:none}
-.lab-main .lab-lede{font-size:17px;line-height:1.75;max-width:760px}
+.lab-main .lab-lede{font-size:17px;line-height:1.75;max-width:none}
 .lab-main .lab-themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .lab-main .lab-theme{border:1px solid #dfe7e8;border-top:3px solid #245c65;border-radius:8px;padding:16px 16px 14px;background:rgba(252,252,250,.92)}
 .lab-main .lab-theme h3{font:18px/1.35 Georgia,"Times New Roman",serif;color:#245c65;margin:0 0 6px}
@@ -174,3 +174,4 @@ html[lang=zh-CN] .lab-main .lab-none{font-style:normal}
 :root[data-theme=dark] .lab-main .lab-methods li{background:#1b2b2e;border-color:#35494d;color:#a8d8d6}
 :root[data-theme=dark] .lab-main .lab-methods-label{color:#aabbbf}
 .lab-main #approach .lab-methods{margin-top:0;text-align:left}.lab-main #approach .lab-methods ul{justify-content:flex-start}
+.lab-main #about.lab-sec{margin-bottom:0}.lab-main .lab-sec > p:last-child{margin-bottom:0}.lab-main #research.lab-sec{padding-top:0}
